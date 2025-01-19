@@ -1,0 +1,115 @@
+body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+.Sec-one{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.Sec-one__Name{
+
+    color: white;
+    font-size: 60px;
+    
+
+}
+.Sec-one__Description{
+    color: white;
+    font-size: 25px;
+    padding-top: 0px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+
+}
+.Sec-one__Contact{
+    background-color: red;
+text-decoration: none;
+color: white;
+margin-top: 20px;
+}
+.Sec-one,.Sec-two,.Sec-three,.Sec-four,.Sec-five,.Sec-six{
+    padding: 10px;
+    margin: 10px;
+}
+.Sec-three__Description,.Sec-four__Description{
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.Sec-three{
+    background-color: violet;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    vertical-align: top;
+}
+.Sec-four{
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    vertical-align: top;
+}
+.Sec-five__title{
+    text-align: left;
+
+}
+.Sec-five{
+    background-color:black;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.Sec-five__title a{
+    color: skyblue;
+    text-decoration: none;
+
+}
+.Contact-form{
+    margin-top: 20px;
+}
+.Contact-form__input,.Contact-form__textarea,.Contact-form__submit{
+    margin-top: 10px;
+}
+.Contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom:solid black 1px;
+    
+}
+.Contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border:solid black 1px;
+    
+}
+.Contact-form__submit:hover{
+padding-top: 10px;
+background-color: orange;
+color: black;
+
+
+}
